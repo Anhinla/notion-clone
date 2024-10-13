@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
-import { ThemeProvider } from "@/components/provider/theme";
+import { ThemeProvider } from "next-themes";
 import { ConvexClientProvider } from "@/components/provider/Convex";
 import {Toaster} from "sonner"
 import { ModalProvider } from "@/components/provider/ModalProvider";
