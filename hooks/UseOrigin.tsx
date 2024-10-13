@@ -8,7 +8,7 @@ export const useOrigin = ()=>{
     useEffect(()=>{
         setMounted(true);
 
-    },[])
+    },[mounted])
     if(!mounted) return "";
 
     return origin
